@@ -45,6 +45,7 @@ public class LineAPIService {
 
     private static final String GRANT_TYPE_AUTHORIZATION_CODE = "authorization_code";
     private static final String GRANT_TYPE_REFRESH_TOKEN = "refresh_token";
+    private static final Logger logger = Logger.getLogger(LineAPIService.class);
 
     @Value("${linecorp.platform.channel.channelId}")
     private String channelId;
