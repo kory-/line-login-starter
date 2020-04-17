@@ -101,7 +101,7 @@ public class LineAPIService {
     public String getLineWebLoginUrl(String state, String nonce, List<String> scopes) {
         final String encodedCallbackUrl;
         final String scope = String.join("%20", scopes);
-
+logger.debug("aaa parameter scope : " + scope);
         try {
             encodedCallbackUrl = URLEncoder.encode(callbackUrl, "UTF-8");
         } catch (UnsupportedEncodingException e) {
