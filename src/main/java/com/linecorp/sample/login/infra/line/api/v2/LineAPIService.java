@@ -35,6 +35,7 @@ import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.auth0.jwt.exceptions.JWTDecodeException;
 import com.linecorp.sample.login.infra.line.api.v2.response.IdToken;
+import org.apache.log4j.Logger;
 
 /**
  * <p>LINE v2 API Access</p>
